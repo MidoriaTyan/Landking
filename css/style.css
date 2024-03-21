@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+}
+
+body{
+    overflow: hidden;
+}
+
+.row {
+    margin: 0 auto;
+    padding: 0 9.375em 0 6.25em;
+}
+
+.header {
+    display: flex;
+    margin: 22.062em 0 0 0;
+    position: relative;
+}
+
+.pill__content {
+    max-width: 33.6875em;
+}
+
+.pill-title {
+    font-size: 4.375em;
+    font-weight: 400;
+}
+
+.pill__row {
+    max-width: 19.4375em;
+    text-align: right;
+    margin-left: auto;
+
+
+}
+
+.pill-info {
+    padding: 1.75em 0 2.4375em 0;
+    text-align: left;
+    font-size: 1.125em;
+    font-weight: 400;
+}
+
+.pill__btn{
+    display: flex;
+    margin-right: auto;
+
+}
+
+.btn {
+   padding: 16px 30px;
+   border: none;
+   background-color: #000;
+   color: #fff;
+   font-size: 12px;
+   font-weight: 300;
+   text-transform: uppercase;
+   cursor: pointer;
+}
+
+.pill__img{
+    position: absolute;
+    top: -18.75em;
+    right: 0;
+    width: 43.75em;
+    height: 49.9375em;
+    background-image: url(/images/cream_header.jpg);
+    background-repeat: no-repeat;
+    z-index: -1;
+
+}
+
+
+.features {
+    margin: 16.9375em 0 0 0;
+    text-align: center;
+}
+
+.features__title {
+    font-size: 15px;
+    font-weight: 300;
+    text-transform: uppercase;
+    padding: 10px 0 19.5px 0;
+}
+
+.features__images {
+    padding: 19.5px 0 10px 0;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.features__images img{
+    margin-right: 10px;
+}
+
+
+
+
+
+.isto{
+    margin: 240px 0 0 0 ;
+}
+
+.isto__blocks {
+    display: flex;
+    align-items: center;
+}
+
+.isto__img {
+    margin: 0 50px 0 0;
+
+}
+.isto__img img{
+    display: block;
+}
+
+.isto__content {
+    padding: 0 0 0 25px;
+}
+
+.isto__title {
+    margin: 57px 0 70px 0;
+    font-size: 18px;
+    text-transform: uppercase;
+
+}
+
+.isto__title-h {
+    margin: 70px 0 100px 0;
+    font-size: 54px;
+    font-weight: 400;
+
+}
+
+.isto__info {
+    margin: 100px 0 49px 0;
+    font-size: 18px;
+}
+
+.isto__btn {
+    margin: 25px 0 0 0;
+}
+
+.btn {
+}
