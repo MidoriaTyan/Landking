@@ -3,11 +3,9 @@
     margin: 0;
     font-family: "Roboto", sans-serif;
     font-size: 16px;
+    list-style-type: none;
 }
 
-body{
-    overflow: hidden;
-}
 
 .row {
     margin: 0 auto;
@@ -16,11 +14,12 @@ body{
 
 .header {
     display: flex;
+    /* margin: 22.0625em 9.375em 0 6.25em; */
     margin: 22.062em 0 0 0;
     position: relative;
 }
 
-.pill__content {
+.content-title {
     max-width: 33.6875em;
 }
 
@@ -29,9 +28,9 @@ body{
     font-weight: 400;
 }
 
-.pill__row {
+.row__info {
     max-width: 19.4375em;
-    text-align: right;
+    /* text-align: right; */
     margin-left: auto;
 
 
@@ -145,5 +144,247 @@ body{
     margin: 25px 0 0 0;
 }
 
-.btn {
+.video{
+    margin: 77px 0 0 0 ;
+}
+
+.indusry {
+    margin: 260px 0 0 0;
+    text-align: center;
+}
+
+.industry__title {
+    font-size: 30px;
+    font-weight: 400;
+    padding: 0 0 10px 0;
+}
+
+.indusry__text {
+    font-size: 15px;
+    padding: 10px 0 0 0;
+    text-transform: uppercase;
+}
+
+.indusry__blocks {
+    display: flex;
+    justify-content: space-between;
+    margin: 110px 0; 
+}
+
+.indusry__block-info {
+    padding: 10px;
+}
+
+.indusry__block-info p{
+    font-size: 54px;
+    padding: 0 0 16px 0;
+}
+
+.indusry__block-info span{
+    font-size: 17px;
+}
+
+
+.iformation {
+    margin: 260px 0 0 0;
+}
+
+.iformation__blocks {
+    display: flex;
+    justify-content: space-between;
+}
+
+.iformation__info {
+
+}
+
+.iformation__titles p {
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 0 0 10px 0;
+}
+
+.iformation__titles h2{
+    font-size: 54px;
+    font-weight: 400;
+    padding: 10px 0 0 0;
+}
+
+.iformation__titles{
+    margin: 0 0 43.5px 0;
+}
+
+
+
+.iformation__text {
+    margin: 9.5px 0 0 6.25em;
+}
+
+.iformation__text p {
+    font-size: 24px;
+    padding: 34px 0 13px 0;
+    line-height: 2.5;
+    font-weight: 500;
+}
+
+.iformation__text span {
+    font-size: 17px;
+    padding: 13px 0 34px 0;
+    line-height: 1.5;
+    display: block;
+}
+
+
+.iformation__image {
+}
+
+.gallery {
+}
+.gallery__title {
+    font-size: 26px;
+    text-align: center;
+    margin: 0 0 0 15px;
+}
+.gallery__grid {
+    margin: 15px 0 0 0 ;
+    display: grid;
+    /* grid-template-rows: repeat(2, 297px); */
+    grid-template-columns: repeat(auto-fill, minmax(297px,  1fr));
+    gap: 3px;
+}
+.gallery__grid img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+}
+
+/* .footer__blocks {
+    display: flex;
+    justify-content: space-between;
+    padding: 83px 0 80px 0;
+}
+
+.footer__standart p{
+    font-size: 54px;
+}
+
+.footer__standart-bottom{
+    margin: 371px 0 0 0;
+    display: flex;
+}
+.footer__standart-bottom p{
+    font-size: 13px;
+    padding: 0 15px 0 0 ;
+}
+
+.footer__buttons {
+}
+
+.footer__lists {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__lists p{
+    font-size: 12px;
+    color: #808080;
+    padding: 0 0 23px 0;
+}
+
+.footer__lists li a{
+    font-size: 13px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    padding: 0 0 10px 0;
+}
+
+
+.footer__other-buttons {
+    margin: 371px 0 0 0;
+}
+
+
+.other__buttns>a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    padding: 0 36px 0 0;
+    margin: 0 0 40px 0;
+}
+
+.footer__text {
+    font-size: 10px;
+} */
+
+.footer__blocks {
+    padding: 83px 0 90px 0;
+}
+
+.footer__block-standards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__standards {
+    font-size: 54px;
+    max-width: 329px;
+}
+
+.footer__block-standards p{
+    font-size: 12px;
+    color: #808080;
+    padding: 23px;
+}
+.footer__block-standards li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: white;
+    margin: 23px;
+    line-height: 2;
+    font-weight: 300;
+    
+}
+
+
+.footer__block-bottom {
+    display: flex;
+    justify-content: space-between;
+    margin: 225px 0 0 0;
+}
+
+.lankind {
+    display: flex;
+
+}
+.lankind p{
+    font-size: 13px;
+    font-weight: 300;
+    padding: 15px;
+}
+
+.footer__bottom-btns {
+    width: 800зч;
+
+}
+
+.footer__buttoms a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    margin: 0 36px 0 0 ;
+    color: white;
+}
+
+.footer__text p{
+    margin: 40px 0 0 0;
+    font-size: 10px;
+    font-weight: 200;
+    letter-spacing: 3;
 }
